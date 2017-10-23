@@ -8,7 +8,7 @@ describe('azure-mobile-apps-compatibility.functional.push', function () {
 
     before(function () {
         app = express()
-        mobileApp = mobileApps({ skipVersionCheck: true, debug: true, notifications: { hubName: 'test', connectionString: 'Endpoint=sb://test.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=zl+2IO/MWTpqKRb0O/g0KfVQtSpnD65Gpx7j76WbuTo=' } })
+        mobileApp = mobileApps({ skipVersionCheck: true, debug: true, notifications: { hubName: 'test', connectionString: '<connectionString>' } })
         mobileApp.tables.import(__dirname + '/tables')
         mobileApp.api.import(__dirname + '/api')
         app.use(mobileApp)
