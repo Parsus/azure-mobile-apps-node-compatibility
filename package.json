@@ -14,7 +14,7 @@
   "dependencies": {
     "cli-prompt": "^0.5.0",
     "mkdirp": "^0.5.1",
-    "msnodesqlv8": "^0.1.35",
+    "msnodesqlv8": "^0.8.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
